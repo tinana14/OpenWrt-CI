@@ -10,7 +10,7 @@
 name: OpenWrt
 
 on:
-  workflow_dispatch
+  workflow_run:
   push:
     branches: 
       - master
